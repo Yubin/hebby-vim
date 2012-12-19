@@ -15,12 +15,12 @@ Only Support *nix and OSX
 
 # Plugins
 
-### gmarik/vundle
+#### [gmarik/vundle]
  * MarcWeber/vim-addon-mw-utils
  * tomtom/tlib_vim
  * mileszs/ack.vim
 
-### [L9]
+#### [L9]
  * AutoComplPop
  * vim-scripts/restore_view.vim
  * Lokaltog/vim-easymotion
