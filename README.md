@@ -17,7 +17,7 @@ Only Support *nix and OSX
  * tomtom/tlib_vim
  * mileszs/ack.vim
  * mileszs/ack.vim
- * L9
+ * [L9]
  * AutoComplPop
  * vim-scripts/restore_view.vim
  * Lokaltog/vim-easymotion
