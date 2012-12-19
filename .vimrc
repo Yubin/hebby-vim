@@ -63,7 +63,7 @@
     endif
     filetype plugin indent on   " Automatically detect file types.
     syntax on                   " syntax highlighting
-    set mouse=a                 " automatically enable mouse usage
+"   set mouse=a                 " automatically enable mouse usage
     set mousehide               " hide the mouse cursor while typing
     scriptencoding utf-8
 
@@ -145,6 +145,7 @@
     set backspace=indent,eol,start  " backspace for dummies
     set linespace=0                 " No extra spaces between rows
     set nu                          " Line numbers on
+    nmap <C-N><C-N> :set invnumber<CR>
     set showmatch                   " show matching brackets/parenthesis
     set incsearch                   " find as you type search
     set hlsearch                    " highlight search terms
@@ -164,7 +165,7 @@
 " }
 
 " Formatting {
-    set nowrap                      " wrap long lines
+    set wrap                      " wrap long lines
     set autoindent                  " indent at the same level of the previous line
     set shiftwidth=4                " use indents of 4 spaces
     set expandtab                   " tabs are spaces, not tabs
@@ -514,6 +515,10 @@
         let g:indent_guides_guide_size = 1
         let g:indent_guides_enable_on_vim_startup = 1
      " }
+     " syntastic {
+        let g:syntastic_check_on_open=1
+     " }
+
 
 " }
 
