@@ -15,8 +15,7 @@ Only Support *nix and OSX
  * gmarik/vundle
  * MarcWeber/vim-addon-mw-utils
  * tomtom/tlib_vim
- * mileszs/ack.vim
- * mileszs/ack.vim
+ * [mileszs/ack.vim]
  * L9
  * AutoComplPop
  * vim-scripts/restore_view.vim
