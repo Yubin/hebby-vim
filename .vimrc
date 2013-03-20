@@ -242,6 +242,12 @@
     nmap <leader>f8 :set foldlevel=8<CR>
     nmap <leader>f9 :set foldlevel=9<CR>
 
+    "folding settings
+    set foldmethod=syntax "fold based on indent
+    set foldnestmax=10      "deepest fold is 10 levels
+    set nofoldenable        "dont fold by default
+    set foldlevel=1         "this is just what i use
+
     "clearing highlighted search
     nmap <silent> <leader>/ :nohlsearch<CR>
 
